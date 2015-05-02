@@ -1,0 +1,63 @@
+#constellation {
+	-webkit-animation:spin 60s linear infinite;
+	    -moz-animation:spin 60s linear infinite;
+	    animation:spin 60s linear infinite;
+}
+/* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+ */.big-dipper {
+	width: 600px;
+	height: 300px;
+	background-color:#323330;
+}
+ol {
+	position: relative;
+}
+
+li {
+	content: ' ';
+	background: #E30613;
+	display: block;
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+}
+li:hover {
+	height: 20px;
+	width: 20px;
+	margin-top:-5px;
+	margin-left:-5px;
+}
+
+.star-1 {
+	top: 120px;
+	left: 80px;
+}
+.star-2 {
+	top: 100px;
+	left: 200px;
+}
+.star-3 {
+	top: 140px;
+	left: 240px;
+}
+.star-4 {
+	top: 160px;
+	left: 320px;
+}
+.star-5 {
+	top: 220px;
+	left: 340px;
+}
+.star-6 {
+	top: 220px;
+	left: 460px;
+}
+.star-7 {
+	top: 140px;
+	left: 480px;
+}
+
+

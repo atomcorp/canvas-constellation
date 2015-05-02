@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Testing canvas</title>
+	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../src/css/canvas-test.css">
+</head>
+<body>
+	<canvas id="constellation" width="800" height="800">
+		
+		<!-- FALLBACK for ie etc -->
+		<img src="../src/img/grimes.png" alt="image of grimes">
+	</canvas>
+	<div class="big-dipper">
+		<ol class="constellation">
+			<li class="star-1">&nbsp;</li>
+			<li class="star-2">&nbsp;</li>
+			<li class="star-3">&nbsp;</li>
+			<li class="star-4">&nbsp;</li>
+			<li class="star-5">&nbsp;</li>
+			<li class="star-6">&nbsp;</li>
+			<li class="star-7">&nbsp;</li>
+		</ol>
+	</div>
+
+
+
+	<script src="../src/js/jquery.min.js"></script>
+	<script src="../src/js/ocanvas-2.7.3.js"></script>
+	<script src="../src/js/constellations.js"></script>
+	<script src="../src/js/test-canvas.js"></script>
+</body>
+</html>
